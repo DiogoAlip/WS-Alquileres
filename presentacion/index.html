@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Portal de Consulta</title>
+    <link rel="stylesheet" href="seb-styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <br />
+      <h1>Consulta sobre alquiler de maquinarias</h1>
+      <br />
+      <a href="http://localhost:3380/alquiler"
+        ><button>Agregar alquiler</button></a
+      >
+      <ul id="lista" class="lista-usuarios"></ul>
+      <script src="/socket.io/socket.io.js"></script>
+      <script type="module" src="presentacion.js"></script>
+      <!-- commonjs no funciona -->
+    </div>
+  </body>
+</html>
